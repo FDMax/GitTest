@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GitTest
 {
-    public partial class Form1 : Form
+    public partial class GitTestForm : Form
     {
-        public Form1()
+        public GitTestForm()
         {
             InitializeComponent();
         }
