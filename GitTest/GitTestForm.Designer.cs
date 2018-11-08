@@ -28,40 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.sourceRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.resultRichTextBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // richTextBox1
+            // sourceRichTextBox
             // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.sourceRichTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox1.Location = new System.Drawing.Point(1, 0);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(0);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(906, 221);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
+            this.sourceRichTextBox.Location = new System.Drawing.Point(1, 0);
+            this.sourceRichTextBox.Margin = new System.Windows.Forms.Padding(0);
+            this.sourceRichTextBox.Name = "sourceRichTextBox";
+            this.sourceRichTextBox.Size = new System.Drawing.Size(906, 221);
+            this.sourceRichTextBox.TabIndex = 0;
+            this.sourceRichTextBox.Text = "";
             // 
-            // richTextBox2
+            // resultRichTextBox
             // 
-            this.richTextBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.resultRichTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.richTextBox2.Location = new System.Drawing.Point(1, 221);
-            this.richTextBox2.Margin = new System.Windows.Forms.Padding(0);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(906, 300);
-            this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = "";
+            this.resultRichTextBox.Location = new System.Drawing.Point(1, 221);
+            this.resultRichTextBox.Margin = new System.Windows.Forms.Padding(0);
+            this.resultRichTextBox.Name = "resultRichTextBox";
+            this.resultRichTextBox.Size = new System.Drawing.Size(906, 300);
+            this.resultRichTextBox.TabIndex = 1;
+            this.resultRichTextBox.Text = "";
             // 
             // GitTestForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(910, 520);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.resultRichTextBox);
+            this.Controls.Add(this.sourceRichTextBox);
             this.Name = "GitTestForm";
             this.Text = "GitTestForm";
             this.ResumeLayout(false);
@@ -70,8 +70,8 @@
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
+        private System.Windows.Forms.RichTextBox sourceRichTextBox;
+        private System.Windows.Forms.RichTextBox resultRichTextBox;
     }
 }
 
