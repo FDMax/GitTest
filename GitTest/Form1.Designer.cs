@@ -63,7 +63,7 @@
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "GitTestForm";
             this.ResumeLayout(false);
 
         }
